@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Applied Pregnancy Informatics</title>
+</head>
+<body>
+<h1>Client Profile</h1>
+	<ul>
+		<li>clientId (primary key)</li>
+		<li>clientName</li>
+		<li>clientAtHandle</li>
+		<li>clientEmail</li>
+		<li>clientHash (for account password)</li>
+		<li>clientDevice</li>
+	</ul>
+<h2>Assessment</h2>
+<ul>
+	<li>assessmentId (primary key)</li>
+	<li>assessmentType</li>
+	<li>assessmentTimestamp</li>
+</ul>
+<h3>Fetal Condition</h3>
+<ul>
+	<li>fetalId (primary key)</li>
+	<li>fetalCondition</li>
+	<li>fetalAssessment</li>
+</ul>
+<h4>Labor</h4>
+<ul>
+	<li>laborId (primary key)</li>
+	<li>laborStatus</li>
+	<li>laborAssessment</li>
+</ul>
+<h3>ERD:</h3>
+<img src="APRIL.png" alt="Entity Relationship Diagram">
+</body>
+</html>
